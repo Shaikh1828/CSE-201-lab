@@ -9,7 +9,7 @@ int main()
 {
     double s_time, e_time, ex;
     s_time = clock();
-    int n, i, tar, s=0;
+    int n, i, tar, s=0, ok;
 
     cin >> n ;
     double arr[n];

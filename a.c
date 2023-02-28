@@ -35,7 +35,7 @@ void quicksort(int arr[], int l, int r )
 
  int main()
  {
-    int arr[5]={4,8,2,5,1};
+    int arr[5]={4,8,2,5,1}, j;
     quicksort(arr, 0 , 4);
     for (int i = 0; i < 5; i++)
     {
